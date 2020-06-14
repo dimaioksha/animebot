@@ -6,6 +6,12 @@ If you have not seen the previous part of my project, you should follow this [li
 
 Ready? Go!
 
+[***Concepts***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#concepts)
+
+[***Implementation***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#implementation)
+
+[***Conclusion***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#conclusion)
+
 # Concepts
 
 Bots are very popular today and their popularity increases fastly. The most popular platform for implementation bots is Telegram. And that is exactly why i have chosed it.
@@ -104,4 +110,6 @@ I have made a telegram bot and now it can solve some tasks:
   
   d) It has many prospects in development and passing the next level.
   
-I can rotate this encoder&decoder model into any sides and learn any representations of different thing. Model can detect cars, planes, humans at the photos and make decision. But this is going to be in the future. Thank you for your attention!  
+I can rotate this encoder&decoder model into any sides and learn any representations of different thing. Model can detect cars, planes, humans at the photos and make decision. But this is going to be in the future. 
+
+Thank you for your attention!  
