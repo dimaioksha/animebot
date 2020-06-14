@@ -81,3 +81,27 @@ Ok! Now lets code our bot to find the most similar photo by chosing it in databa
 ![](./img/girls3.jpg)
 
 ![](./img/girls4.jpg)
+
+Great! We are able to find the most similar images in our database between each other. But what if we want to upload new photos and find similar to them?
+
+***5 Step***
+
+There is last goal to implement our bot. His last function is to find the most similar photo by uploaded users photo. Here were some difficulties, because user can upload photo with any size but encoder demends only 64x64 size of picture. Now here helps [PIL library](https://pillow.readthedocs.io/en/stable/) with method resize which is an incredible thing! It provides resized image saving the most important patterns of pixels. 
+
+Here is how this works:
+
+![](./img/girls5.jpg)
+
+# Conclusion
+
+I have made a telegram bot and now it can solve some tasks:
+
+  a) It is able to make humanisation of some pictures.
+  
+  b) It is able to save most important things of the picture and then convert it into anime. 
+  
+  c) This bot will provide you some new avatars and if you want you can find the most similar to them.
+  
+  d) It has many prospects in development and passing the next level.
+  
+I can rotate this encoder&decoder model into any sides and learn any representations of different thing. Model can detect cars, planes, humans at the photos and make decision. But this is going to be in the future. Thank you for your attention!  
