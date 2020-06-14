@@ -14,7 +14,7 @@ Telegram provides useful API for their bots. And the library for working with it
 
 # Implementation
 
-**1 Step**
+***1 Step***
 
 Here we go! The first step of creating any telegram bot is to make an introduction. This is an example of how it works:
 
@@ -22,7 +22,7 @@ Here we go! The first step of creating any telegram bot is to make an introducti
 
 It takes from users data his name and send response by command `/start`, `Привет`, `Hello` and etc.
 
-**2 Step**
+***2 Step***
 
 Ok. Now the bot is able to answer first command. The next goal is to make an interactive bars for communicating with user. 
 
@@ -40,7 +40,7 @@ You can chose your answer and then the bot will send you another one message. It
 
 ![](./img/4.PNG)
 
-**3 Step**
+***3 Step***
 BIG DEAL!
 
 Ok, it is enough for funny features and now i am going to make something useful. The first thing i am going to talk about is [MongoDB](https://www.mongodb.com/). This is one of the most powerful cloud databases for small projects. Mongo provides programmers wide spectre of functions and things which are very helpful for project implementation. I am going to use FreeMongoCloud to create database of users. Working with MongoDB API is described in this [file](mongodb.py).
@@ -48,3 +48,30 @@ Ok, it is enough for funny features and now i am going to make something useful.
 ![](./img/5.PNG)
 
 Great! Now i can save data of users and then make some operations with their data. There are some fields like `name`, `surname`, `id` and etc.
+
+***4 Step***
+
+At this step i am going to implement chosing photo from database(db is described in the previous github topic) and then finding the most similar to this photo another one. 
+
+How can we count "similarity"? Ok, it is not a problem. There is a very strong mathematics method which is called `Cosine_Similarity`. 
+Here is formula: 
+
+![](./img/cosine.png)
+
+It is just vectors scalar product divided by l2 norm(Euclid distance) 
+
+There is one way to get vector of image and that is exactly why i have taught my encoder to provide me vector. There is 3-d channel image and encoder converts it into a 256-dimentional space. When we have two 256-dim vectors we can apply them `Cosine_Similarity`. The similarity lays between 0.0 and 1.0. The best score is 1.0 and that means that pictures are the same because of their same vectors.
+
+Here is how can vector look like in 256-dimentional space and the image becomes something like this: 
+
+![](./img/F1.large.jpg)
+
+I passed the path of mathematics where is described how we can teach computer to make some predictons or(like in our case) convert things which are understandable by human into things which are understandable by programm. But the main idea is to decrease loss function by gradient descent which in my case looks like:
+
+`Loss function:`
+
+![](./img/HlYNr.png)
+
+`Gradient descent:`
+
+![](./img/6.png)
