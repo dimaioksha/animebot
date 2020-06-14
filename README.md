@@ -79,3 +79,5 @@ I passed the path of mathematics where is described how we can teach computer to
 Ok! Now lets code our bot to find the most similar photo by chosing it in database. Here how it works in my bot:
 
 ![](./img/girls3.jpg)
+
+![](./img/girls4.jpg)
