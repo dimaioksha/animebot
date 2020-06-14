@@ -8,7 +8,7 @@ Ready? Go!
 
 # Concepts
 
-Bots are very popular today and their popilarity increases fastly. The most popular platform for implementation bots is Telegram. And that is exactly why i have chosed it.
+Bots are very popular today and their popularity increases fastly. The most popular platform for implementation bots is Telegram. And that is exactly why i have chosed it.
 
 Telegram provides useful API for their bots. And the library for working with it is [`pyTelegramBotAPI`](https://github.com/eternnoir/pyTelegramBotAPI). It is an intuitive thing, and i like it very much.
 
