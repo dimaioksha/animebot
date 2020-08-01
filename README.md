@@ -6,11 +6,11 @@ If you have not seen the previous part of my project, you should follow this [li
 
 Ready? Go!
 
-[***Concepts***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#concepts)
+[***Concepts***](https://github.com/DmitryIo/animebot#concepts)
 
-[***Implementation***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#implementation)
+[***Implementation***](https://github.com/DmitryIo/animebot#implementation)
 
-[***Conclusion***](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning#conclusion)
+[***Conclusion***](https://github.com/DmitryIo/animebot#conclusion)
 
 # Concepts
 
